@@ -1,0 +1,87 @@
+body{
+    height: 100vh;
+}
+
+nav{
+    grid-area: menu;
+}
+
+main{
+    width: 100%;
+    height: 1vh;
+    grid-area: cuerpo;
+}
+
+footer{
+    grid-area: pie;
+}
+
+.grid-areas{
+    display: grid;
+    grid-template-areas: 
+    "menu menu"
+    "cuerpo cuerpo"
+    "pie pie";
+
+    grid-template-rows: 7% auto 10%;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr;
+}
+
+h1{
+    text-align: center;
+    margin-top: 205px;
+}
+h2{
+    text-align: center
+}
+h3{
+    text-align: center
+}
+
+.redes{
+    width: 95%;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    margin: 10px 25px;
+}
+.subtitulos{
+    position: relative;
+    top: 5%;
+    text-align: left;
+    padding: 1em 0;
+    margin: 10px 50px;
+    width: 100%;
+}
+.descripcion{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 8% 25%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: solid 1px black;
+}
+
+.habilidades{
+    width: 50%;
+    padding: 50px;
+    margin: 10% 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    margin: auto;
+}
